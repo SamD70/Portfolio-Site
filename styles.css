@@ -1,0 +1,111 @@
+*{
+    list-style: none;
+    border: none;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: none;
+}
+
+/* Navigation*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #475B63;
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 7vh;
+}
+
+.nav-list li{
+    display: flex;
+}
+
+.nav-list li:hover{
+    cursor: pointer;
+}
+/* Title section */
+
+.title-section{
+    height: 100vh;
+    background-color: #475B63;
+    color: #F3E8EE;
+
+}
+
+.title-section-wrapper{
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-top{
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    grid-template-rows: 1;
+    padding-top: 3rem;
+}
+.title-header{
+    font-size: 9rem;
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.social-logo{
+    height: 10rem;
+    width: 10rem;
+}
+
+.cv-logo{
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+    font-size: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+
+.title-mid{
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.title-bottom{
+    padding-top: 4rem;
+}
+
+.title-bottom button{
+    color: #F3E8EE;
+    background-color: #729B79;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.title-bottom button:hover{
+    cursor: pointer;
+}
+
+/* Project Section */
+
+.project-section{
+    width: 90%;
+    height: 80vh;
+}
