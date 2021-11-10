@@ -345,3 +345,12 @@ footer{
     border-radius: 10px;
     margin: 0;
 }
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.status{
+    padding-top: 15px;
+    color: red;
+}
