@@ -19,7 +19,7 @@ a:hover{
     justify-content: center;
     font-size: 1.2rem;
     background-color: #475B63;
-    color: white;
+    color: #F3E8EE;
 }
 
 .nav-list{
@@ -247,17 +247,101 @@ a:hover{
 
 /* Contact Section */
 
-.cv-btn-wrapper{
+.contact-section{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cv-btn-wrapper button{
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 3rem;
     font-size: 1.2rem;
     box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     color: #F3E8EE;
     background-color:#729B79 ;
-    margin: 10px 0;
+    margin: 50px 0;
+}
+
+.contact-section h3{
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 2rem 0;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.contact-form input, textarea{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 150px 50px 50px;
+    width: 750px;
+    background-color: #C4C4C4;
+    font-size: 1.2rem;
+}
+
+
+.submit{
+    color:#F3E8EE;
+    background-color:#475B63 ;
+    margin: 30px 0;
+    padding: 0.7rem 4rem;
+    font-size: 1.2rem;
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-align: center;
+}
+
+/*Footer Nav */
+
+footer{
+    background-color: #2E2C2F;
+    height: 40vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.footer-nav{
+    display: flex;
+    font-size: 1.2rem;
+    color: #F3E8EE;
+}
+
+.footer-nav-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footer-logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logos i{
+    font-size: 8rem;
+    color: #F3E8EE;
+    position: relative;
+    top: -8px;
+    padding: 0px 15px;
+}
+
+.footer-cv-logo{
+    background-color: #F3E8EE;
+    height: 110px;
+    width: 110px;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2E2C2F;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 0;
 }
