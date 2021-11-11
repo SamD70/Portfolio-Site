@@ -14,11 +14,13 @@ a:hover{
 
 /* Navigation*/
 .nav{
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 1.2rem;
-    background-color: #475B63;
+    background-color: #2E2C2F;
     color: #F3E8EE;
 }
 
@@ -28,22 +30,40 @@ a:hover{
     align-items: center;
     width: 40%;
     height: 7vh;
+    transition: 0.3s;
+
 }
 
 .nav-list li{
     display: flex;
+    transition: 0.3s;
+
 }
 
 .nav-list li:hover{
     cursor: pointer;
 }
+
+/* Title section */
+/* Animation  Classes */
+#hidden{
+    opacity: 0;
+}
+
+#visible{
+    opacity: 1;
+    transition: opacity 2s ease-out;
+}
+
+
+
 /* Title section */
 
 .title-section{
     height: 100vh;
     background-color: #475B63;
     color: #F3E8EE;
-
+    padding: 60px 0px;
 }
 
 .title-section-wrapper{
@@ -162,6 +182,7 @@ a:hover{
     font-size: 4rem;
     color: #F3E8EE;
     margin: 10px 0;
+    transition: 0.3s;
 }
 
 .project-wrapper button{
@@ -198,6 +219,8 @@ a:hover{
     background-color: #475B63;
     margin: 10px 0;
 }
+
+
 
 #countdown{
     background:#475B63 ;
@@ -239,10 +262,11 @@ a:hover{
     
 }
 
-.skills-list img{
+.skills-list i{
     height: 150px;
     width: 150px;
     margin: 10px 60px;
+    font-size: 10rem;
 }
 
 /* Contact Section */
@@ -261,6 +285,7 @@ a:hover{
     color: #F3E8EE;
     background-color:#729B79 ;
     margin: 50px 0;
+    cursor: pointer;
 }
 
 .contact-section h3{
@@ -318,7 +343,9 @@ footer{
     justify-content: space-between;
     width: 40%;
 }
-
+.footer-nav-list li{
+    transition: 0.3s;
+}
 .footer-logos{
     display: flex;
     flex-direction: row;
@@ -353,4 +380,43 @@ footer{
 .status{
     padding-top: 15px;
     color: red;
+}
+
+/* Additional animations */
+button{
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #52c5ae;
+    color: #2E2C2F;
+}
+#countdown button:hover{
+    background-color: #52c5ae;
+    color: #2E2C2F;
+    cursor: pointer;
+}
+#todo-list button:hover{
+    background-color: #52c5ae;
+    color: #2E2C2F;
+    cursor: pointer;
+
+}
+
+#smart-savings button:hover{
+    background-color: #52c5ae;
+    color: #2E2C2F;
+    cursor: pointer;
+}
+
+.project-wrapper i:hover{
+    color: #52c5ae;
+}
+
+.nav-list li:hover{
+    color: #52c5ae;
+}
+
+.footer-nav-list li:hover{
+    color: #52c5ae;
+    cursor: pointer;
 }
