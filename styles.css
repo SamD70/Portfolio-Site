@@ -8,6 +8,13 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;;
+  }
+
+a{
+    color: inherit;
+}
 a:hover{
     cursor: pointer;
 }
@@ -184,7 +191,22 @@ a:hover{
     margin: 10px 0;
     transition: 0.3s;
 }
+.project-bottom p{
+    font-size: 1.6rem;
+}
 
+.project-bottom i{
+    font-size: 4rem;
+    color: black;
+    margin: 10px 0;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    
+;}
+.project-bottom i:hover{
+    color: #52c5ae;
+}
 .project-wrapper button{
     padding: 0.7rem 1.6rem;
     font-size: 1rem;
