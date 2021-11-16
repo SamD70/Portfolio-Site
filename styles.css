@@ -114,7 +114,7 @@ a:hover{
 }
 
 .title-mid{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 80%;
     text-align: center;
     padding-top: 2rem;
@@ -193,6 +193,7 @@ a:hover{
 }
 .project-bottom p{
     font-size: 1.6rem;
+    text-align: center;
 }
 
 .project-bottom i{
@@ -441,4 +442,84 @@ button:hover{
 .footer-nav-list li:hover{
     color: #52c5ae;
     cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1050px){
+/*     Title Section*/
+    .title-header{
+        font-size: 6rem;
+        text-align: center;
+    }
+    .title-section i{
+        font-size: 4rem;
+    }
+    .cv-logo{
+        height: 70px;
+        width: 70px;
+        font-size: 2rem;
+    }
+    .title-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-section{
+        justify-content: space-around;
+    }
+/*     Projects Section*/
+    .project-mid{
+        flex-direction: column;
+    }
+    /* Contact Form */
+    .contact-form input, textarea{
+        width: 400px;
+    }
+    .skills-list{
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+    .skills-list i{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 670px){
+    .title-header{
+        font-size: 4rem;
+    }
+    .title-mid{
+        font-size: 1rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+    
+    .skills-list i{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 400px){
+    .title-mid{
+        font-size: 0.8rem;
+    }
+    .contact-form input, textarea{
+        width: 300px;
+    }
+    footer{
+        height: 80vh;
+    }
+    .footer-logos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .skills-list{
+        grid-template-columns: 1fr;
+    }
+    .skills-list i{
+        font-size: 7rem;
+    }
 }
