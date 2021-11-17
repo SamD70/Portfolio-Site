@@ -16,7 +16,10 @@
 </head>
 <body>
     <nav class="nav">
-        <ul class="nav-list">
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-list" id="nav-list">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">My Projects</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -39,12 +42,11 @@
             </div>
             <div class="title-mid" id="hidden">
                 <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                    deserunt mollit anim id est laborum.
+                    I am a final year BSC Financial Mathematics student at Loughborough University and I have a passion for web development.
+                    I love building web applications and learning how to use new tools to make my projects better. With a goal to improve my tech
+                    stack and ability to put it to use, I am hoping to get the chance to put my skills to use in a proffessional environment.
+                    Below are a few of my p[rojects to date, and whilst i have some new aplications in development, I hope you enjoy what i have to show 
+                    so far.
                 </h3>
             </div>
             <div class="title-bottom" id="hidden">
@@ -90,12 +92,12 @@
                 <a href=""><i class="fab fa-github-square"></i></a>
             </div>
         </div>
-        <div class="project-bottom">
+        <div id="skills" class="project-bottom">
             <p>I have also included the Github Repository for this website here:</p>
             <a href=""><i class="fab fa-github-square"></i></a>
         </div>
     </section>
-    <section id="skills" class="skills-section">
+    <section  class="skills-section">
         <div class="skills-top">
             <h3>
                 My Skills
@@ -109,7 +111,7 @@
                 aliquip ex ea commodo consequat.
             </p>
         </div>
-        <div class="skills-bottom">
+        <div id="cv" class="skills-bottom">
             <ul class="skills-list">
                 <li><i class="fab fa-html5" style="color: #e34c26; "></i></li>
                 <li><i class="fab fa-css3-alt" style="color: #264de4 ; "></i></li>
@@ -123,11 +125,11 @@
         </div>
 
     </section>
-    <section class="contact-section">
-        <div id="cv" class="cv-btn-wrapper">
+    <section  class="contact-section">
+        <div id="contact" class="cv-btn-wrapper">
             <a href=""><button>View My CV Here</button></a>
         </div>
-        <div id="contact" class="contact-wrapper">
+        <div class="contact-wrapper">
             <h3>
                 Contact Me
             </h3>
@@ -157,11 +159,11 @@
         
         <nav class="footer-nav">
             <ul class="footer-nav-list">
-                <li>Home</li>
-                <li>My Projects</li>
-                <li>Skills</li>
-                <li>CV</li>
-                <li>Contact Me</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
         
@@ -173,5 +175,7 @@
 
     </footer>
     <script src="./js/animation.js"></script>
+    <script src="./js/hamburger.js"></script>
+
 </body>
 </html>
