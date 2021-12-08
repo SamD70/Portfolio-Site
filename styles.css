@@ -182,7 +182,7 @@ a:hover{
     align-items: center;
     margin: 0 3rem;
     color: #F3E8EE;
-    height: 750px;
+    height: 600px;
     box-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.692);
     text-align: center;
 
@@ -225,13 +225,8 @@ a:hover{
     border-radius: 50px;
 }
 
-.dummy-site-image{
-    background: #F3E8EE;
-    height: 45%;
-    width: 85%;
-    color: #2E2C2F;
-    margin: 20px 0;
-}
+
+
 
 #smart-savings{
     background:#729B79 ;
