@@ -521,10 +521,7 @@ button:hover{
 }
 
 @media (max-width: 400px){
-    .title-section{
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+    
     .title-mid{
         font-size: 0.7rem;
     }
