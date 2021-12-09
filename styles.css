@@ -77,7 +77,7 @@ a:hover{
 /* Title section */
 
 .title-section{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #475B63;
     color: #F3E8EE;
     padding: 60px 0px;
