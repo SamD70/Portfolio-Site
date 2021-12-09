@@ -521,8 +521,12 @@ button:hover{
 }
 
 @media (max-width: 400px){
+    .title-section{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     .title-mid{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .contact-form input, textarea{
         width: 300px;
@@ -540,5 +544,11 @@ button:hover{
     }
     .skills-list i{
         font-size: 7rem;
+    }
+    .title-bottom button{
+        padding: 0.5rem 1.2rem;
+        font-size: 0.8rem;
+        box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
     }
 }
