@@ -359,7 +359,7 @@ footer{
     align-items: center;
 }
 .footer-nav{
-    padding: 20px 0;
+    margin: 20px 0;
     display: flex;
     font-size: 1.2rem;
     color: #F3E8EE;
