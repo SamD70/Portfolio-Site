@@ -357,7 +357,7 @@ footer{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 .footer-nav{
     display: flex;
@@ -521,7 +521,9 @@ button:hover{
 }
 
 @media (max-width: 400px){
-    
+    .footer-logos{
+        display: none;
+    }
     .title-mid{
         font-size: 0.7rem;
     }
